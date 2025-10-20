@@ -19,14 +19,14 @@
         }
     ],
     "require": {
-        "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+        "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
         "ext-dom": "*",
         "ext-openssl": "*",
-        "azjezz/psl": "^3.0",
+        "azjezz/psl": "^3.0 || ^4.0",
         "paragonie/hidden-string": "^2.0",
-        "php-soap/psr18-transport": "^1.7",
-        "php-soap/engine": "^2.13",
-        "php-soap/xml": "^1.8",
+        "php-soap/psr18-transport": "^1.8",
+        "php-soap/engine": "^2.16",
+        "php-soap/xml": "^1.9",
         "php-http/client-common": "^2.3",
         "robrichards/wse-php": "^2.0",
         "veewee/xml": "^3.0"
@@ -35,7 +35,9 @@
         "nyholm/psr7": "^1.5",
         "php-http/mock-client": "^1.5",
         "symfony/http-client": "^7.1",
-        "phpunit/phpunit": "^11.4",
+        "phpunit/phpunit": "~12.3",
+        "vimeo/psalm": "~6.13",
+        "php-cs-fixer/shim": "~3.88",
         "cweagans/composer-patches": "^1.7"
     },
     "extra": {
