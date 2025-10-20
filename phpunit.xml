@@ -4,6 +4,9 @@
         bootstrap="./tests/bootstrap.php"
         colors="true"
         displayDetailsOnPhpunitDeprecations="true"
+        displayDetailsOnTestsThatTriggerWarnings="true"
+        failOnWarning="true"
+        failOnPhpunitWarning="true"
 >
     <testsuites>
         <testsuite name="Unit">
